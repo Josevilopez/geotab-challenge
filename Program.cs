@@ -101,16 +101,10 @@ namespace Geotab_Challenge
 
                 string timestamp = DateTime.Now.ToString("yyyyMMddHHmmss");
 
-                Console.WriteLine(" Retrieving devices...");
-                Console.Write(" ");
                 Console.ForegroundColor = ConsoleColor.White;
                 var vehiclesData = await _servicio.GetVehicleDataAsync(1);
                 Console.ForegroundColor = ConsoleColor.Gray;
                 Console.WriteLine();
-
-                Console.Write(" ");
-                Console.ForegroundColor = ConsoleColor.White;
-
                 callback(vehiclesData, timestamp);
 
                 Console.WriteLine();

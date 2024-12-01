@@ -63,7 +63,7 @@ namespace geotab_challenge
             // The list of all vehicle vehicle readings
             var vehiculeReadings = new List<VehicleData>(devices.Count);
 
-
+            Console.Write(" ");
             for (int i = 0; i < devices.Count; i++)
             {
                 Device device = devices[i];
