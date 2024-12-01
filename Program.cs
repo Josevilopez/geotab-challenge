@@ -3,7 +3,7 @@
 namespace Geotab_Challenge
 {
 
-    // Define the callback function signatureto write data a localfile
+    // Define the callback function signature to write data a localfile
     delegate void CallbackFunction(IEnumerable<VehicleData> odometerReadings, string timestamp);
 
     /// <summary>
@@ -12,7 +12,7 @@ namespace Geotab_Challenge
     class Program
      {
         /// <summary>
-        /// This is a Geotab API program to download vehicle mileage to a CSV or XML.
+        /// This is a Geotab API program to download vehicle mileage and position to a CSV or XML.
         ///
         /// Steps:
         /// 1) Create Geotab API object from supplied arguments and authenticate.
