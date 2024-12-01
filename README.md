@@ -5,9 +5,9 @@
 Steps:
 
  1) Create Geotab API object from supplied arguments and authenticate.
- 2) Get the odometer readings and gps position of each device and set a VehiculeData object, each minute
+ 2) Get the odometer readings and gps position of each device and set a VehiculeData object, each minute.
  3) Output the information to a CSV or XML file.
- 4) Ctrl + C to finish
+ 4) Ctrl + C to finish.
 
 ## Prerequisites
 
