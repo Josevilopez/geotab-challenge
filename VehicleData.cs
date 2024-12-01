@@ -45,11 +45,15 @@ namespace geotab_challenge
 
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="VehicleData"/> class.
+        /// Initializes a new instance of the <see cref="VehicleData"/> class. 
         /// </summary>
-        /// <param name="id">The Vehicle Id</param>
-        /// <param name="mileage">The mileage</param>
-        /// 
+        /// <param name="id"></param>
+        /// <param name="serialNumber"></param>
+        /// <param name="name"></param>
+        /// <param name="vin"></param>
+        /// <param name="mileage"></param>
+        /// <param name="longitude"></param>
+        /// <param name="latitude"></param>
         public VehicleData(Id id, string serialNumber, string name, string vin, double mileage, double longitude, double latitude)
         {
             Id = id;

@@ -36,7 +36,7 @@ namespace geotab_challenge
 
         }
 
-        // Método para obtener datos de un vehículo específico
+        // Method to obtain vehicle data
         public async Task<List<VehicleData>> GetVehicleDataAsync(int minutes)
         {
 
