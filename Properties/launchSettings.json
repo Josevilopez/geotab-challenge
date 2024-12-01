@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "geotab-challenge": {
+      "commandName": "Project",
+      "commandLineArgs": "\"mypreview.geotab.com\"\r\n\"demo_candidates_net\"\r\n\"josev.lopez.diaz@gmail.com\"\r\n\"Ge0YOs3=978\" \r\n\".csv\""
+    }
+  }
+}
